@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="newin_image_width">250dp</dimen>
+    <dimen name="newin_image_height">450dp</dimen>
+    <dimen name="btn_new_width">75dp</dimen>
+    <dimen name="btn_new_height">35dp</dimen>
+    <dimen name="collapsing_height">160dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="title_cap_size">20dp</dimen>
+    <dimen name="sort_by_text_size">15dp</dimen>
+    <dimen name="margin_left">15dp</dimen>
+
+</resources>

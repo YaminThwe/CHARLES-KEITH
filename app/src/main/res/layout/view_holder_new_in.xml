@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/iv_news_image"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/charles" />
+
+    <Button
+        android:id="@+id/btn_new"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:text="new"
+        android:layout_alignTop="@id/iv_news_image"
+        android:layout_alignEnd="@id/iv_news_image"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/pure_white"
+         />
+    <TextView
+        android:id="@+id/tv_product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZIPPED SMALL WALLET"
+        android:layout_below="@id/iv_news_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
